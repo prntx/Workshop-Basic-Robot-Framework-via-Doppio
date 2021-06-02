@@ -11,8 +11,8 @@ Say Hello
 
 
 *** Test Cases ***
-Basic Assignment For EP01 - Basic Robot Framework
-    Open Browser    file:///Users/kxngbvss/robot/Paint/ep01/ep01_small_excercise.html   browser=chrome
+Case01
+    Open Browser    file:///Users/phattranitsinchaithanakit/Paint/ep01/ep01_small_excercise.html   browser=chrome
     Input Text  	xpath=//input[contains(@id,'username')]		Admin
     Input Text  	xpath=//div[2]//input[@type='text']		    1234
     Input Text  	xpath=//div[3]//input[@doppio='nickname']	Paint
@@ -34,7 +34,5 @@ Basic Assignment For EP01 - Basic Robot Framework
     Click element    xpath=//*[@id="use-me"]
     Sleep   3
     handle alert    accept
-
-
 
 
